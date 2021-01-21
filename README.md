@@ -1,24 +1,22 @@
-# README
+# Requirments
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app requires the following below:
 
-Things you may want to cover:
+ * ruby 2.7.2
+ * Framework: rails 6.0.3.4
 
-* Ruby version
+## Deployment
 
-* System dependencies
+```bash
+# install dependency
+bundle install
 
-* Configuration
+# start server
+rails s
+```
 
-* Database creation
+## Swagger-UI
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+location : http://localhost:3000/swagger/swagger-ui.html
+```
